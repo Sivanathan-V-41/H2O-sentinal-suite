@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Quality Checking</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #3498db, #6bb9f0);
+      padding: 15px;
+      text-align: left;
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+    }
+
+    header a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #3498db;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .chart {
+      margin: 20px 0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 15px;
+      background: linear-gradient(to right, #fff, #f9f9f9);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #ph-meter-container {
+      position: relative;
+    }
+
+    #ph-meter {
+      width: 100%;
+      height: 100px;
+      background-color: #3498db;
+      position: relative;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    #ph-level {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, #2ecc71 0%, #e74c3c 100%);
+      position: absolute;
+      bottom: 0;
+      transition: height 0.5s ease-in-out;
+    }
+
+    #ph-value {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .meter-rating {
+      text-align: center;
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .neutral, .excellent, .good, .poor {
+      color: #27ae60;
+    }
+
+    .neutral {
+      color: #f39c12; 
+    }
+
+    .poor {
+      color: #e74c3c; 
+    }
+
+    .alert-container {
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .alert {
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 10px;
+      background-color: #27ae60; /* Green for good alerts */
+      color: #fff;
+    }
+
+    .impure-water {
+      background-color: #e74c3c; /* Red for alerts */
+      color: #fff;
+    }
+
+    .reference {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #555;
+      opacity: 0;
+      animation: fadeIn 1s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="back-button" href="front.html">Back</a>
+</header>
+
+<main>
+  <h1>Water Quality Checking</h1>
+  <p>Welcome to our water quality checking service. Here, you can find information about the water quality in your area.</p>
+
+  <button id="checkButton">Check pH Level</button>
+
+  <!-- pH Meter Container -->
+  <div id="ph-meter-container">
+    <!-- pH Meter -->
+    <div id="ph-meter">
+      <div id="ph-level"></div>
+      <div id="ph-value">7.0</div>
+      <div class="meter-rating" id="rating">Rating: <span id="ratingText" class="neutral">Neutral</span></div>
+    </div>
+    <!-- pH Reference -->
+    <div class="reference" id="reference">Pure water: pH 6.5 - 8.5</div>
+  </div>
+
+  <!-- Real-time Alerts -->
+  <div class="alert-container">
+    <h2>Real-time Alerts</h2>
+    <div id="phAlert" class="alert pure-water">Water is pure!</div>
+  </div>
+
+  <div class="chart particles">
+    <h2>Particle Levels</h2>
+    <div class="particle-type">Stones</div>
+    <div class="particle-reading" id="stonesReading">50 ppm</div>
+    <div class="particle-type">Dust</div
+    <div class="particle-reading" id="dustReading">30 ppm</div>
+    <div class="particle-type">Salt</div>
+    <div class="particle-reading" id="saltReading">20 ppm</div>
+    <div class="particle-type">Various Minerals</div>
+    <div class="particle-reading" id="mineralsReading">40 ppm</div>
+  </div>
+</main>
+
+<script>
+  document.getElementById('checkButton').addEventListener('click', () => {
+    const phLevel = 7.5;
+    document.getElementById('ph-level').style.height = `${(phLevel / 14) * 100}%`;
+    document.getElementById('ph-value').textContent = phLevel.toFixed(2);
+
+    const ratingText = document.getElementById('ratingText');
+    const rating = document.getElementById('rating');
+    const reference = document.getElementById('reference');
+    const phAlert = document.getElementById('phAlert');
+
+    // Update conditions based on the new pH level
+    if (phLevel >= 6.5 && phLevel <= 8.5) {
+        ratingText.textContent = 'Neutral';
+        rating.classList.remove('good', 'poor', 'excellent');
+        rating.classList.add('neutral');
+        phAlert.textContent = 'Water is potable!';
+        phAlert.classList.remove('impure-water');
+        phAlert.classList.add('pure-water');
+        reference.style.opacity = 0;
+    } else {
+        ratingText.textContent = 'Not Pure';
+        rating.classList.remove('good', 'neutral', 'excellent');
+        rating.classList.add('poor');
+        phAlert.textContent = 'Water is contaminated!';
+        phAlert.classList.remove('pure-water');
+        phAlert.classList.add('impure-water');
+        reference.style.opacity = 1;
+    }
+  });
+</script>
+
+</body>
+</html>

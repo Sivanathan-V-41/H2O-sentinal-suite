@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌊 Water Insights Hub - Historical Data & Analytics</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(45deg, #3498db, #2ecc71);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      color: #fff;
+    }
+
+    .main-container {
+      text-align: center;
+    }
+
+    .back-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: #27ae60;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #218c54;
+    }
+
+    .analytics-section {
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 40px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #000; /* Black color for paragraphs */
+    }
+
+    .analytics-card {
+      background: linear-gradient(45deg, #fff, #ecf0f1);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .analytics-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    h3 {
+      color: #3498db;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .animated-text {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .animated-text::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      color: #3498db;
+      overflow: hidden;
+      clip: rect(0, 1px, 0, 0);
+      animation: fadeIn 1s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+
+<div class="main-container">
+  <button class="back-button" onclick="location.href='front.html'">Back</button>
+  <h2 class="animated-text" data-text="🌊 Water Insights Hub - Historical Data & Analytics">🌊 Water Insights Hub - Historical Data & Analytics</h2>
+  
+  <div class="analytics-section">
+    <p>Discover detailed insights to promote water conservation and efficient management of resources.</p>
+
+    <div class="analytics-card">
+      <h3>Water Consumption Trends</h3>
+      <p>Over the past decade, there has been a steady increase in water consumption in Coimbatore. This is influenced by factors such as population growth, industrial expansion, and climate patterns. Understanding these trends is crucial for sustainable water planning.</p>
+    </div>
+
+    <div class="analytics-card">
+      <h3>Infrastructure Utilization</h3>
+      <p>Assess the performance of water supply infrastructure over time. Track the utilization of reservoirs, pipelines, and treatment plants to ensure optimal functionality and identify areas for improvement. Efficient infrastructure is key to meeting growing water demands.</p>
+    </div>
+
+    <div class="analytics-card">
+      <h3>Climate Impact</h3>
+      <p>Understand the impact of climate change on water resources. Analyze historical weather patterns and their correlation with water availability, drought occurrences, and seasonal variations. This knowledge aids in developing adaptive strategies to mitigate climate-related challenges.</p>
+    </div>
+
+    <div class="analytics-card">
+      <h3>Efficiency Metrics</h3>
+      <p>Evaluate the efficiency of water management practices by examining metrics such as leak detection, water distribution losses, and response times to incidents. Identify opportunities for optimization to enhance overall water system efficiency and reduce wastage.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

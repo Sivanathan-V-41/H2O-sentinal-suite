@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Supply Mapping Tool - Sign Up</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: url('https://i.postimg.cc/nVD1RGkT/jonathan-delange-8o-Sc-TTpf-Nw-unsplash.jpg') center/cover no-repeat;
+    }
+
+    .signup-container {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      width: 300px;
+      margin: 20px;
+    }
+
+    .signup-header {
+      background-color: #3498db;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #2980b9;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .signup-form {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .input-group {
+      margin-bottom: 20px;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .signup-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .signup-button:hover {
+      background-color: #2980b9;
+      transform: scale(1.05);
+    }
+
+    .login-link {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      color: #3498db;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    .login-link:hover {
+      color: #2980b9;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <div class="signup-container">
+    <div class="signup-header">
+      <h2>Create an Account</h2>
+      <p>Sign up to get started</p>
+    </div>
+
+    <div class="signup-form">
+      <div class="input-group">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+      </div>
+
+      <div class="input-group">
+        <label for="newpassword">Password:</label>
+        <input type="password" id="newpassword" name="newpassword" placeholder="Enter a password">
+      </div>
+
+      <button class="signup-button">Sign Up</button>
+
+      <a href="login.html" class="login-link">Already have an account? Login</a>
+    </div>
+  </div>
+
+</body>
+
+</html>

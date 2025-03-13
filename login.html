@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> H2O Sentinel Suite - Login</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: url('https://i.postimg.cc/FF3jgsrB/pan-xiaozhen-IYE0-Im-Ql-Y90-unsplash.jpg') center/cover no-repeat;
+    }
+
+    .login-container {
+      background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      width: 300px;
+    }
+
+    .login-header {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #45a049;
+    }
+
+    .login-form {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .input-group {
+      margin-bottom: 20px;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .login-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .login-button:hover {
+      background-color: #45a049;
+      transform: scale(1.05); /* Increase button size on hover */
+    }
+
+    .signup-link {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    .signup-link:hover {
+      color: #45a049;
+      transform: scale(1.05); /* Increase link size on hover */
+    }
+  </style>
+
+  <script>
+    function validateLogin() {
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+
+      if (username === 'siva' && password === '12345') {
+        // Redirect to the desired page (front.html) after successful login
+        window.location.href = 'front.html';
+      } else {
+        alert('Invalid username or password. Please try again.');
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- Login Container -->
+  <div class="login-container">
+    <div class="login-header">
+      <h2>Water Supply Mapping Tool</h2>
+      <p>Login to continue</p>
+    </div>
+
+    <div class="login-form">
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+      </div>
+
+      <button class="login-button" onclick="validateLogin()">Login</button>
+      <a href="signup.html" class="signup-link">Don't have an account? Sign Up</a>
+    </div>
+  </div>
+
+</body>
+
+</html>

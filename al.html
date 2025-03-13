@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Management Alerts & Notifications</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #218838;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .feature {
+            margin-bottom: 40px;
+        }
+
+        .feature img {
+            max-width: 80px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature img:hover {
+            transform: scale(1.1);
+        }
+
+        .feature h3 {
+            margin-top: 10px;
+            color: #007bff;
+        }
+
+        .animated-text {
+            position: relative;
+        }
+
+        .animated-text::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            color: #007bff;
+            overflow: hidden;
+            clip: rect(0, 1px, 0, 0);
+            animation: bounce 1s ease infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Back Button -->
+    <a href="front.html" class="back-button">Back</a>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Water Management Alerts & Notifications</h1>
+        <p class="animated-text" data-text="Stay informed and take control of your water usage">Stay informed and take control of your water usage</p>
+    </header>
+
+    <!-- Features Section -->
+    <section class="feature">
+        <img src="https://i.postimg.cc/4xt13yzQ/2039001.png" alt="Real-Time Alerts Image">
+        <h3>Real-Time Alerts</h3>
+        <p>Receive instant notifications about any changes in water availability, supply disruptions, or emergency situations.</p>
+    </section>
+
+    <section class="feature">
+        <img src="https://i.postimg.cc/HLg98mzD/download.jpg" alt="Customizable Notifications Image">
+        <h3>Customizable Notifications</h3>
+        <p>Tailor your notification preferences based on your specific needs. Choose your preferred communication channels.</p>
+    </section>
+
+    <section class="feature">
+        <img src="https://i.postimg.cc/4xt13yzQ/2039001.png" alt="Water Conservation Reminders Image">
+        <h3>Water Conservation Reminders</h3>
+        <p>Get timely reminders about water conservation initiatives, usage tips, and updates on ongoing projects.</p>
+    </section>
+
+    <section class="feature">
+        <img src="https://i.postimg.cc/yxdP6TPD/download.png" alt="Emergency Notifications Image">
+        <h3>Emergency Notifications</h3>
+        <p>Instant alerts in case of leaks, contamination, or other emergencies, providing crucial information for a prompt response.</p>
+    </section>
+
+</body>
+</html>

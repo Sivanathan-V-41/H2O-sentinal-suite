@@ -1,0 +1,1156 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SERVICE DETAILS</title>
+<style type="text/css">
+@media print {
+.butbckfwd{ font-weight:bold; font-family: arial; color:yellow; display:none; background-color:green; border-style: none; border-color:white;border:0px double black }
+			}
+<!--
+.style10 {font-family: Arial, Helvetica, sans-serif}
+.style14 {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.style15 {font-size: 14px}
+body,td,th {
+	color: #000000;
+	}
+.style17 {color: #0061C1 ; font-size: 15px;}
+.style18 {font-size: 12px}
+.style19 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+.style21 {
+	color: #0071E1v;
+	font-size: 16px;
+}
+.style22 {font-size: 14px; color: #0071E1; }
+.style27 {color: #0071E1; font-style: italic; }
+
+.ccbills {
+	border:1px solid #000;
+	border-collapse:collapse;
+	font-size:0.8em;
+	font-weight:normal;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+}
+
+-->
+</style>
+<style type="text/css">
+.mth	{ 	background-color: #cbc6bc;  font-weight:bold; 	color:#000;	font-size: 12px;	}
+.shead	{  	font-family:georgia; font-size: 14px;	color:#000;	background-color:#fac473;	  }
+.ccbills1 {
+	border:1px solid #000;
+	border-collapse:collapse;
+	font-family:"open Sans", arial;
+	font-size:12px;
+	font-weight:normal;
+}
+[rea='1'] { background:#CCFB5D;     font-size:9pt;	}
+[rea='2'] { background:#ECC5C0;     font-size:9pt	;	}
+[rea='3'] { background:#F7E7CE;	  font-size:9pt;	}
+[rea='4'] { background:#E0B0FF;	  font-size:9pt;	}
+[rea='5'] { background:#FFFF00;	  font-size:9pt;	}
+[rea='6'] { background:#C2B280;	  font-size:9pt;	}
+[rea='gk'] { background:#deb887;	  font-size:9pt;	}
+[flag='time'] { background:#fff; color:maroon; font-size:12px;	 float:right;	}
+caption > div  {	
+	width:33%; 
+	display:inline; 
+	float:left; 
+	font-weight:normal; 
+	font-size:12px; 
+	color:#8B0000; 	
+	border-top:0px solid maroon;		
+}
+caption > h4 > ul, li   {	
+	width:auto;
+	display:inline;
+	font-weight:normal; 
+	font-size:12px;	 
+	margin:0;	
+}
+
+
+/*.det th {		background-color:#c3e6d0;		}*/
+<!--.smhead { 		width:480px;		display:inline-block;	border-top: 1px solid #000;		background-color:#fff; color:#000; text-align:center;  font-size: 11px;	font-weight:normal; }-->
+</style>
+<SCRIPT TYPE="text/javascript">
+
+window.setInterval (BlinkIt, 500);
+        var color = "#ffffff";
+        function BlinkIt () {
+            var blink = document.getElementById ("blink");
+            color = (color == "#ffffff")? "#000000" : "#ffffff";
+            blink.style.color = color;
+        }
+
+<!--
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+   href=mylink;
+else
+   href=mylink.href;
+window.open(href, windowname, 'width=800,height=350,scrollbars=yes,left =100,TOP=100');
+return false;
+}
+//-->
+</SCRIPT>
+
+</head>
+
+<body bgcolor="#e9f5db">
+ <!--<table align="center" border="0" width="800px" bgcolor="#e9f5db" cellspacing="0" cellpadding="0" >
+<tr><td>
+  	<table width="80%" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr align="center">
+	<td width="34%" align="left">
+	<form name="gmcview" action="consumerwise.php" method="post">
+	<input type="hidden" name="rsno" value="3"  />
+    	<A href='https://www.tnebltd.gov.in/BillStatus/billstatus.xhtml'>Back</a>
+    	</form></td>
+    <td width="34%" scope="row" ><span class="style17"></span></td>
+    <td width="32%" align="right">
+	<form name="gmcview" action="../../chairman/web/index.php" method="post">
+	<input type="hidden" name="rsno" value="3">
+        <A href='https://www.tangedco.gov.in/'>Home</a>
+    	<input type=hidden name=rsno value=$res>
+	</form></td>
+    </tr>
+
+    </table> !-->
+</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+<table width="750px" align="center">
+<tr align="center">
+<td width="52%" height="21" scope="row" align="left"><span class="style17">CONSUMER NAME</span>:V.VELLIYANGIRI</td>
+<td width="48%" height="21" scope="row" align="right"><span class="style17">CONSUMER NUMBER:&nbsp;</span>032070031672</td>
+</tr>
+</table>
+</td></tr>
+<tr><td>
+<table width="800px" ALIGN="CENTER" border="1" cellspacing="0" cellpadding="0"  style=bordercolor=#C4D2E2 bgcolor="#FFFFFF">
+<tr>
+<th width="108" scope="row" bgcolor="c4c0b5"><div align="center" class="style19"><div align="left" >&nbsp;REGION</div></div></th>
+<td width="131" bgcolor="#edede6"><font size="2" face="Arial, Helvetica, sans-serif"> &nbsp;03-Coimbatore </font></td>
+<td width="230" scope="row" bgcolor="c4c0b5"><div align="left" class="style19">&nbsp;PHASE</div></td>
+<td width="140" bgcolor="#edede6" class="style10"><font size="2" face="Arial, Helvetica, sans-serif"> &nbsp;1 </font></td>
+<td width="195" scope="row" bgcolor="c4c0b5"><div align="CENTER" class="style19">&nbsp;SLAB RATE</div></td>
+
+</tr>
+<tr>
+<th width="108" scope="row" bgcolor="c4c0b5"<div align="left" class="style18">&nbsp;CIRCLE</div></th>
+<td width="181" bgcolor="#edede6"><font size="2" face="Arial, Helvetica, sans-serif"> &nbsp;438-Tiruppur </font></td>
+<td scope="row" bgcolor="c4c0b5"><div align="left" class="style19">&nbsp;SANCTIONED LOAD</div></td>
+<td align="left" bgcolor="#edede6" class="style10"><font size="2" face="Arial, Helvetica, sans-serif" color="#FC0735">&nbsp;1 KW</font></td>
+
+<td bgcolor="#edede6" rowspan="6"><font face="Arial, Helvetica, sans-serif"> &nbsp;
+<table BORDER=1 class='ccbills' align=center ><TR><TD bgcolor='#FFCC66'>From Unit</TD><TD bgcolor='#FFCC66'>To Unit</TD><TD bgcolor='#FFCC66'>Rate  (Rs.)</TD><TD bgcolor='#FFCC66'>Max. Unit</TD> </TR><tr><td ALIGN=RIGHT>1</td><td ALIGN=RIGHT>100</td><td ALIGN=RIGHT>0 </td><td ALIGN=RIGHT>500 </td></tr><tr><td ALIGN=RIGHT>101</td><td ALIGN=RIGHT>200</td><td ALIGN=RIGHT>2.25 </td><td ALIGN=RIGHT>500 </td></tr><tr><td ALIGN=RIGHT>201</td><td ALIGN=RIGHT>400</td><td ALIGN=RIGHT>4.5 </td><td ALIGN=RIGHT>500 </td></tr><tr><td ALIGN=RIGHT>401</td><td ALIGN=RIGHT>500</td><td ALIGN=RIGHT>6 </td><td ALIGN=RIGHT>500 </td></tr><tr><td ALIGN=RIGHT>1</td><td ALIGN=RIGHT>100</td><td ALIGN=RIGHT>0 </td><td ALIGN=RIGHT>9999999 </td></tr><tr><td ALIGN=RIGHT>101</td><td ALIGN=RIGHT>400</td><td ALIGN=RIGHT>4.5 </td><td ALIGN=RIGHT>9999999 </td></tr><tr><td ALIGN=RIGHT>401</td><td ALIGN=RIGHT>500</td><td ALIGN=RIGHT>6 </td><td ALIGN=RIGHT>9999999 </td></tr><tr><td ALIGN=RIGHT>501</td><td ALIGN=RIGHT>600</td><td ALIGN=RIGHT>8 </td><td ALIGN=RIGHT>9999999 </td></tr><tr><td ALIGN=RIGHT>601</td><td ALIGN=RIGHT>800</td><td ALIGN=RIGHT>9 </td><td ALIGN=RIGHT>9999999 </td></tr><tr><td ALIGN=RIGHT>801</td><td ALIGN=RIGHT>1000</td><td ALIGN=RIGHT>10 </td><td ALIGN=RIGHT>9999999 </td></tr><tr><td ALIGN=RIGHT>1001</td><td ALIGN=RIGHT>Above</td><td ALIGN=RIGHT>11 </td><td ALIGN=RIGHT>9999999 </td></tr><TR><TD><I>Min.Chrg:</I></td><td ALIGN=RIGHT>0</td>
+	<TD><I>Fixd.Cost:</I></td><td ALIGN=RIGHT>0</td></tr>
+
+	<tr><TD><I>BPSC*:</I></td><td ALIGN=RIGHT>0</td>
+	<TD><I>Welding.Chrg:</I></td><td ALIGN=RIGHT>15%</td></tr>
+
+	<TR><TD><I>E.Tax:</I></td><td colspan=2 ALIGN=RIGHT>0 % (CC + DPF + WD+RDFC)</td></tr>
+</table></font></td>
+</tr>
+
+<tr>
+<th width="108" scope="row" bgcolor="c4c0b5"><div align="left" class="style18">
+<span title="Address : AE / Town / East / Tiruppur Phone No: 2429100     ">&nbsp;SECTION</span></div></th>
+<td width="181" bgcolor="#edede6"><font size="2" face="Arial, Helvetica, sans-serif"> &nbsp;207-Town/East/Tiruppur                       </font></td>
+	<td scope='row' bgcolor='c4c0b5'><div align='left' class='style19'>&nbsp;TEMPORARILY REDUCED LOAD</div></td>
+ 
+</tr>
+
+<tr>
+<th scope="row" bgcolor="c4c0b5"><div align="left" class="style19">&nbsp;DISTRIBUTION</div></th>
+<td bgcolor="#edede6"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;003-THILLAI NAGAR</font></td>
+<td bgcolor="c4c0b5" scope="row" ><div align="left" class="style19">&nbsp;METER NUMBER</div></td>
+<td bgcolor="#edede6" class="style10" ><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;5451287</font></td>
+
+<tr>
+<th scope="row" bgcolor="c4c0b5"><div align="left" class="style19">&nbsp;SERVICE NUMBER </div></th>
+<td bgcolor="#edede6"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;1672</font></td>
+<th scope="row" bgcolor="c4c0b5" ><div align="left" class="style19"><span title="Advance Current consumption deposit which is maintained to match 3 months average consumption charges and is reviewed once in 2 years">&nbsp;ACCD* AS ON Date/<br>SD Available for Refund or Adj.(Rs.) </span></div></th>
+<td bgcolor="#edede6" ><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;884 / NIL </font></td>
+
+</tr>
+
+<tr>
+<th scope="row" bgcolor="c4c0b5" ><div align="left" class="style19">&nbsp;ADDRESS</div></th>
+<td bgcolor="#edede6" ><font size="2" face="Arial, Helvetica, sans-serif"> &nbsp;THILLAI NAGAR
+THARAPURAM RD
+TPR </font></td>
+<th scope="row" bgcolor="c4c0b5" ><div align="left" class="style19"><span title="Meter caution deposit">&nbsp;MCD AS ON Date/<br> MCD Available for Refund or Adj.(Rs.),</br> </span></div></th>
+<td bgcolor="#edede6" ><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;0 / 0 </font></td>
+
+</tr>
+
+<tr>
+<th scope="row" bgcolor="c4c0b5" ><div align="left" class="style19">&nbsp;SERVICE STATUS</div></th>
+<td bgcolor="#edede6" ><font size="2" face="Arial, Helvetica, sans-serif"> &nbsp;LIVE</font></td>
+<th scope="row" bgcolor="c4c0b5"><div align="left" class="style19">&nbsp;SERVICE CATEGORY </div></th>
+<td bgcolor="#edede6"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;OTHERS </font></td>
+</tr>
+<tr>
+<th scope="row" bgcolor="c4c0b5"><div align="left" class="style19"><font size="2" color="#CC0099">&nbsp;<b>AADHAR</b></font></div></th>
+<td bgcolor='#edede6'><font size='2' face='Arial, Helvetica, sans-serif' color='Darkgreen'>&nbspUpdated</font></td>	<th scope="row" bgcolor="c4c0b5" ><div align="left" class="style19">&nbsp;TARIFF CODE </div></th>
+<td bgcolor="#edede6" ><font size="2" face="Arial, Helvetica, sans-serif"> &nbsp;LA1A / DOMESTIC </font></td>
+	</tr>
+<tr>
+<th scope="row" bgcolor="c4c0b5" ><div align="left" class="style19">&nbsp;GST Number</div></th>
+<td bgcolor="#edede6" ><font size="2" face="Arial, Helvetica, sans-serif"> &nbsp;</font></td>
+
+</tr>
+		</table>
+	<table width="800px" ALIGN="CENTER" border="1" cellspacing="0" cellpadding="0"  style=bordercolor=#C4D2E2 bgcolor="#FFFFFF">
+<tr  bgcolor="#edede6"><td align="center">
+<FONT color="990033" SIZE=3><b><em>Interest at the rate of  2.70% p.a. for the financial year 2023-2024. is credited to such amount, held for full month(more than 30days) as advance.The amount paid as advance towards Electricity charges(Current Consumption Charges) can be adjusted only against future CC bills.</em></b></FONT>
+</td>
+</tr>
+</table>
+
+<!////////////////////////////////////////Dues To be Paid details//////////////////////////////////	>
+
+<p>
+ <center>
+ <TABLE align=center border=0 cellPadding=0 cellSpacing=0 width='80%'>
+<tr align="center"><td align="center">
+<p style="font-family:arial; color:#CC0099; font-size:15px;"><b></b></p>
+<p style="font-family:arial; color:#CC0099; font-size:15px;"><b></b></p>
+<p style="font-family:arial; color:#CC0099; font-size:15px;">DUES TO BE PAID IS "NIL"</p>
+<blink><a href="https://www.tnebnet.org/awp/login">CLICK HERE TO PAY ADVANCE *</blink></a>
+</td></tr></table>
+</center>
+</center>
+
+
+<tr><td>&nbsp;</td></tr>
+<tr><td>
+
+<!--<p style="font-family:arial; color:red; font-size:15px;"><b> <u> Note:Click the link in the below table  under total bill amount column  to view the details for the current consumption charges(Domestic only)</u></b></p>
+-->
+
+</TD></TR>
+					
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script language="javascript1.1" type="text/javascript" src='comscript.js'></script><div> 
+<style>
+ .th1 {     background-color: #c5edac ;  }
+ .th2 {     background-color: #D3C580 ;  }
+ .th3 {     background-color: #D8D2D3 ;  }
+ .th4 {     background-color: #80D3C4 ;  }
+ .th5 {     background-color: #eba07a ;  }
+ .th6 {     background-color: #e1ebb7 ;  }
+ .th7 {     background-color: #80CAD3 ;  }
+ .th8 {     background-color: #F6B2AA ;  }
+ .th9 {     background-color: #ebc97a ;  }
+ .th10 {     background-color: #eb7a7a ;  }
+ 
+
+
+</style>
+</head>
+<table class='ccbills' align=center  width=80%  border='1' cellspacing=1 cellpadding=1 >
+  <caption class='shead'>Consumption Charges and Collection Details</caption>
+  <tr class="th1" >
+    <th align="center" width="8%"  colspan="3">Assessment</th>
+	<th align="center"   width="8%"  colspan="4">Consumption Reading</th>
+	<th align="center"  width="8%"  rowspan="1">Consumption</th>   
+	<th align="center"   width="10%"  colspan="6" >Splitup of Charges</th>
+	<th  align="center" width="10%"  rowspan="1">Total Charges</th>
+		<th align="center"   width="5%"  colspan="2">Deductions </th>
+	<th align="center" width="5%"  colspan="2">Final Bill Details</th>
+	<th align="center"    width="10%"  colspan="3" >Collection Details</th>	 	
+
+  </tr>
+  <tr  class="th3">
+     <th   align="center" >Date</th>
+     <th   align="center"  >Entry Date</th>
+     <th   align="center"  >Status</th>
+	 <th   align="center"   >KWH</th>
+    <th   align="center"   >KVAH</th>
+    <th   align="center"  >Recorded <br> Demand</th>
+	<th   align="center"  >Power <br> Factor</th>
+	<th   align="center"   >in Units</th>
+	
+	<th   align="center"  >CC Charges</th>
+      <th   align="center" >Electy.<br> Tax</th>
+	<th   align="center"  >Welding</th>
+    <th  align="center" >Excess Demand</th>
+    <th  align="center"  >PF <br> Penalty</th>
+    <th  align="center" >Fixed <br> Charges</th>
+	<th  align="center"  > 15=9+..+14</th>
+	<th  align="center"   >Advance <br> Amount <br> Paid</th>
+	<th  align="center"   >Adjustment </th>
+	 <th   align="center" >Amount To Be <br> paid</th>
+    <th   align="center" >Due<br> Date</th>	 
+	<th  align="center"  >Amount <br> Paid </th>
+	<th  align="center"  >Receipt <br>No </th>
+	<th  align="center" >Date  </th>	
+	
+	</tr>
+	 <tr class="th6">
+    <td   align="center" >1</td>
+    <td   align="center" >2</td>
+    <td   align="center" >3</td>
+	<td   align="center" >4</td>
+	<td   align="center" >5</td>
+	<td   align="center" >6</td>
+	<td   align="center" >7</td>
+	<td   align="center" >8</td>
+	<td   align="center" >9</td>
+	<td   align="center" >10</td>
+	<td   align="center" >11</td>
+	<td   align="center" >12</td>
+	<td   align="center" >13</td>
+	<td   align="center" >14</td>
+	<td   align="center" >15</td>
+	<td   align="center" >16</td>
+	<td   align="center" >17</td>
+	<td   align="center" >18</td>
+	<td   align="center" >19</td>
+	<td   align="center" >20</td>
+	<td   align="center" >21</td>
+	<td   align="center" >22</td>
+	 </tr>
+  <tr bgcolor=#FFFFFF>        <td align="center">13/03/2024</td>
+        <td align="center">13/03/2024</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">2944</td>
+            <td align="right"></td>
+            <td align="right">.72</td> 
+            <td align="right"></td>
+            <td align="right">151</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxNTEjMTMvMDMvMjAyNCNOIzExNyMxMS8wMS8yMDI0IzAjMyMwI0NCVDIwN0lBMlM4MDUjMTE0Ljc1 onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxNTEjMTMvMDMvMjAyNCNOIzExNyMxMS8wMS8yMDI0IzAjMyMwI0NCVDIwN0lBMlM4MDUjMTE0Ljc1','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+114.75</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">115</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">115</td>
+			    <td align="right">&nbsp;02/04/2024</td>
+    <td align="right">	115	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA2S1867</td>
+    <td align="right">&nbsp;18/03/2024</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">11/01/2024</td>
+        <td align="center">11/01/2024</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">2793</td>
+            <td align="right"></td>
+            <td align="right">.41</td> 
+            <td align="right"></td>
+            <td align="right">152</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxNTIjMTEvMDEvMjAyNCNOIzQ1IzA5LzExLzIwMjMjMCMzIzAjQ0JTMjA3UlMxUzE5NjYjMTE3 onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxNTIjMTEvMDEvMjAyNCNOIzQ1IzA5LzExLzIwMjMjMCMzIzAjQ0JTMjA3UlMxUzE5NjYjMTE3','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+117</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">117</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">117</td>
+			    <td align="right">&nbsp;31/01/2024</td>
+    <td align="right">	117	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA2S805</td>
+    <td align="right">&nbsp;30/01/2024</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">09/11/2023</td>
+        <td align="center">10/11/2023</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">2641</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">120</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMjAjMDkvMTEvMjAyMyNOIzc0IzEyLzA5LzIwMjMjMCMzIzAjQ0JTMjA3UlMxUzE3MzQjNDU= onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMjAjMDkvMTEvMjAyMyNOIzc0IzEyLzA5LzIwMjMjMCMzIzAjQ0JTMjA3UlMxUzE3MzQjNDU=','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+45</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">45</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">45</td>
+			    <td align="right">&nbsp;29/11/2023</td>
+    <td align="right">	45	</td>
+
+    <td align="left" nowrap="nowrap" >CBS207RS1S1966</td>
+    <td align="right">&nbsp;23/11/2023</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">12/09/2023</td>
+        <td align="center">13/09/2023</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">2521</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">133</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMzMjMTIvMDkvMjAyMyNOIzE1MyMxMy8wNy8yMDIzIzAjMyMwI0NCUzIwN1JTMVMyMTk3Izc0LjI1 onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMzMjMTIvMDkvMjAyMyNOIzE1MyMxMy8wNy8yMDIzIzAjMyMwI0NCUzIwN1JTMVMyMTk3Izc0LjI1','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+74.25</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">74</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">74</td>
+			    <td align="right">&nbsp;03/10/2023</td>
+    <td align="right">	74	</td>
+
+    <td align="left" nowrap="nowrap" >CBS207RS1S1734</td>
+    <td align="right">&nbsp;20/09/2023</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">13/07/2023</td>
+        <td align="center">14/07/2023</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">2388</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">168</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxNjgjMTMvMDcvMjAyMyNOIzkwIzE2LzA1LzIwMjMjMCMzIzAjQ0JUMjA3SUEyUzQzMiMxNTMuMDE= onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxNjgjMTMvMDcvMjAyMyNOIzkwIzE2LzA1LzIwMjMjMCMzIzAjQ0JUMjA3SUEyUzQzMiMxNTMuMDE=','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+153.01</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">153</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">153</td>
+			    <td align="right">&nbsp;02/08/2023</td>
+    <td align="right">	153	</td>
+
+    <td align="left" nowrap="nowrap" >CBS207RS1S2197</td>
+    <td align="right">&nbsp;19/07/2023</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">16/05/2023</td>
+        <td align="center">17/05/2023</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">2220</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">140</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxNDAjMTYvMDUvMjAyMyNOIzY4IzEzLzAzLzIwMjMjMCMzIzAjQ0JTMjA3UlMxUzI2NTAjOTA= onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxNDAjMTYvMDUvMjAyMyNOIzY4IzEzLzAzLzIwMjMjMCMzIzAjQ0JTMjA3UlMxUzI2NTAjOTA=','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+90</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">90</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">90</td>
+			    <td align="right">&nbsp;05/06/2023</td>
+    <td align="right">	90	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA2S432</td>
+    <td align="right">&nbsp;24/05/2023</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">13/03/2023</td>
+        <td align="center">13/03/2023</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">2080</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">130</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMzAjMTMvMDMvMjAyMyNOIzQ1IzExLzAxLzIwMjMjMCMzIzAjQ0JTMjA3UlMxUzI2MDcjNjcuNQ== onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMzAjMTMvMDMvMjAyMyNOIzQ1IzExLzAxLzIwMjMjMCMzIzAjQ0JTMjA3UlMxUzI2MDcjNjcuNQ==','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+67.5</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">68</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">68</td>
+			    <td align="right">&nbsp;03/04/2023</td>
+    <td align="right">	68	</td>
+
+    <td align="left" nowrap="nowrap" >CBS207RS1S2650</td>
+    <td align="right">&nbsp;23/03/2023</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">11/01/2023</td>
+        <td align="center">12/01/2023</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">1950</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">120</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMjAjMTEvMDEvMjAyMyNOIzQ1IzExLzExLzIwMjIjMCMzIzAjQ0JUMjA3SUEyUzMwNjYjNDU= onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMjAjMTEvMDEvMjAyMyNOIzQ1IzExLzExLzIwMjIjMCMzIzAjQ0JUMjA3SUEyUzMwNjYjNDU=','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+45</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">45</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">45</td>
+			    <td align="right">&nbsp;31/01/2023</td>
+    <td align="right">	45	</td>
+
+    <td align="left" nowrap="nowrap" >CBS207RS1S2607</td>
+    <td align="right">&nbsp;23/01/2023</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">11/11/2022</td>
+        <td align="center">14/11/2022</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">1830</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">120</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMjAjMTEvMTEvMjAyMiNOIzkwIzE2LzA5LzIwMjIjMCMzIzAjQ0JTMjA3UlMxUzEzMDQjNDU= onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMjAjMTEvMTEvMjAyMiNOIzkwIzE2LzA5LzIwMjIjMCMzIzAjQ0JTMjA3UlMxUzEzMDQjNDU=','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+45</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">45</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">45</td>
+			    <td align="right">&nbsp;01/12/2022</td>
+    <td align="right">	45	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA2S3066</td>
+    <td align="right">&nbsp;23/11/2022</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">16/09/2022</td>
+        <td align="center">16/09/2022</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">1710</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">140</td> 
+						
+            		<td align="center"><a href=./bill_calculationrev1.php?&url=TEExQSMxNDAjMTYvMDkvMjAyMiNOIzY1IzE0LzA3LzIwMjIjMCMzIzE5I0xDQlQyMDdJQTJTNTMjMTAvMDkvMjAyMiMx onClick="window.open( 'bill_calculationrev1.php?&url=TEExQSMxNDAjMTYvMDkvMjAyMiNOIzY1IzE0LzA3LzIwMjIjMCMzIzE5I0xDQlQyMDdJQTJTNTMjMTAvMDkvMjAyMiMx','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+71.25</font></a></td>
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">19</td>
+				<td align="right">90</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">90</td>
+			    <td align="right">&nbsp;06/10/2022</td>
+    <td align="right">	90	</td>
+
+    <td align="left" nowrap="nowrap" >CBS207RS1S1304</td>
+    <td align="right">&nbsp;29/09/2022</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">14/07/2022</td>
+        <td align="center">14/07/2022</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">1570</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">130</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMzAjMTQvMDcvMjAyMiNOIzExMCMxNy8wNS8yMDIyIzAjMyMyMCNDQlQyMDdJQTJTMTcwNSM0NQ== onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMzAjMTQvMDcvMjAyMiNOIzExMCMxNy8wNS8yMDIyIzAjMyMyMCNDQlQyMDdJQTJTMTcwNSM0NQ==','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+45</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">65</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">65</td>
+			    <td align="right">&nbsp;03/08/2022</td>
+    <td align="right">	65	</td>
+
+    <td align="left" nowrap="nowrap" >LCBT207IA2S53</td>
+    <td align="right">&nbsp;28/07/2022</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">17/05/2022</td>
+        <td align="center">17/05/2022</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">1440</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">160</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxNjAjMTcvMDUvMjAyMiNOIzExMCMxNC8wMy8yMDIyIzAjMyMyMCNDQlQyMDdJQTJTMjk4NSM5MA== onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxNjAjMTcvMDUvMjAyMiNOIzExMCMxNC8wMy8yMDIyIzAjMyMyMCNDQlQyMDdJQTJTMjk4NSM5MA==','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+90</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">110</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">110</td>
+			    <td align="right">&nbsp;06/06/2022</td>
+    <td align="right">	110	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA2S1705</td>
+    <td align="right">&nbsp;23/05/2022</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">14/03/2022</td>
+        <td align="center">14/03/2022</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">1280</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">160</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxNjAjMTQvMDMvMjAyMiNOIzM1IzEyLzAxLzIwMjIjMCMzIzIwI0NCVDIwN0lBMlMyNDQ2Izkw onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxNjAjMTQvMDMvMjAyMiNOIzM1IzEyLzAxLzIwMjIjMCMzIzIwI0NCVDIwN0lBMlMyNDQ2Izkw','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+90</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">110</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">110</td>
+			    <td align="right">&nbsp;04/04/2022</td>
+    <td align="right">	110	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA2S2985</td>
+    <td align="right">&nbsp;24/03/2022</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">12/01/2022</td>
+        <td align="center">13/01/2022</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">1120</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">110</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMTAjMTIvMDEvMjAyMiNOIzY1IzEzLzExLzIwMjEjMCMzIzIwI0NCVDIwN0lBMVMzMjQzIzE1 onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMTAjMTIvMDEvMjAyMiNOIzY1IzEzLzExLzIwMjEjMCMzIzIwI0NCVDIwN0lBMVMzMjQzIzE1','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+15</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">35</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">35</td>
+			    <td align="right">&nbsp;01/02/2022</td>
+    <td align="right">	35	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA2S2446</td>
+    <td align="right">&nbsp;25/01/2022</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">13/11/2021</td>
+        <td align="center">17/11/2021</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">1010</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">130</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMzAjMTMvMTEvMjAyMSNOIzk1IzE0LzA5LzIwMjEjMCMzIzIwI0NCVDIwN0lBMVMyODYyIzQ1 onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMzAjMTMvMTEvMjAyMSNOIzk1IzE0LzA5LzIwMjEjMCMzIzIwI0NCVDIwN0lBMVMyODYyIzQ1','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+45</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">65</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">65</td>
+			    <td align="right">&nbsp;03/12/2021</td>
+    <td align="right">	65	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S3243</td>
+    <td align="right">&nbsp;29/11/2021</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">14/09/2021</td>
+        <td align="center">15/09/2021</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">880</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">150</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxNTAjMTQvMDkvMjAyMSNOIzY1IzEyLzA3LzIwMjEjMCMzIzIwI0NCVDIwN0lBMVMxOTc4Izc1 onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxNTAjMTQvMDkvMjAyMSNOIzY1IzEyLzA3LzIwMjEjMCMzIzIwI0NCVDIwN0lBMVMxOTc4Izc1','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+75</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">95</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">95</td>
+			    <td align="right">&nbsp;04/10/2021</td>
+    <td align="right">	95	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S2862</td>
+    <td align="right">&nbsp;27/09/2021</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">12/07/2021</td>
+        <td align="center">15/07/2021</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">730</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">280</td> 
+						
+            				<td align="right">120</td>
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">40</td>
+				<td align="right">160</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+			<td align="center"><a href=./pmc_bill_calc1.php?&url=TEExQSMyODAjMTIvMDcvMjAyMSNOIzk1IzE1LzA1LzIwMjEjMCMzIzQwI0NCVDIwN0lBMVM0Mw== onClick="window.open( 'pmc_bill_calc1.php?&url=TEExQSMyODAjMTIvMDcvMjAyMSNOIzk1IzE1LzA1LzIwMjEjMCMzIzQwI0NCVDIwN0lBMVM0Mw==','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+65</font></a></td>
+			    <td align="right">&nbsp;02/08/2021</td>
+    <td align="right">	65	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S1978</td>
+    <td align="right">&nbsp;27/07/2021</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">15/05/2021</td>
+        <td align="center">15/05/2021</td>
+		 <td align="left">PMC</td>
+        <td align='center' colspan='11'>Previous Assessment Amount Billed</td>				<td align="right">95</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">95</td>     <td align="right">&nbsp;04/06/2021</td>
+    <td align="right">	95	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S43</td>
+    <td align="right">&nbsp;01/06/2021</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">15/03/2021</td>
+        <td align="center">16/03/2021</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">450</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">120</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMjAjMTUvMDMvMjAyMSNOIzAjMTIvMDEvMjAyMSMwIzMjMjAjIzMw onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMjAjMTUvMDMvMjAyMSNOIzAjMTIvMDEvMjAyMSMwIzMjMjAjIzMw','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+30</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">50</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">50</td>
+			    <td align="right">&nbsp;05/04/2021</td>
+    <td align="right">	50	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S4507</td>
+    <td align="right">&nbsp;25/03/2021</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">12/01/2021</td>
+        <td align="center">12/01/2021</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">330</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">100</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMDAjMTIvMDEvMjAyMSNOIzUwIzE2LzExLzIwMjAjMCMzIzAjQ0JUMjA3SUExUzMwOTQjMA== onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMDAjMTIvMDEvMjAyMSNOIzUwIzE2LzExLzIwMjAjMCMzIzAjQ0JUMjA3SUExUzMwOTQjMA==','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+0</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">0</td>
+			    <td align="right">&nbsp;01/02/2021</td>
+    <td align="right">	0	</td>
+
+    <td align="left" nowrap="nowrap" ></td>
+    <td align="right">&nbsp;</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">16/11/2020</td>
+        <td align="center">18/11/2020</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">230</td>
+            <td align="right"></td>
+            <td align="right">.62</td> 
+            <td align="right"></td>
+            <td align="right">120</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMjAjMTYvMTEvMjAyMCNOIzM1IzE2LzA5LzIwMjAjMCMzIzIwI0NCVDIwN0lBMVM0ODUjMzA= onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMjAjMTYvMTEvMjAyMCNOIzM1IzE2LzA5LzIwMjAjMCMzIzIwI0NCVDIwN0lBMVM0ODUjMzA=','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+30</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">50</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">50</td>
+			    <td align="right">&nbsp;07/12/2020</td>
+    <td align="right">	50	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S3094</td>
+    <td align="right">&nbsp;27/11/2020</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">16/09/2020</td>
+        <td align="center">16/09/2020</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">110</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">110</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMTAjMTYvMDkvMjAyMCNOIzc3IzIxLzA3LzIwMjAjMCMzIzIwI0NCVDIwN0lBMVMxMDk3IzE1 onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMTAjMTYvMDkvMjAyMCNOIzc3IzIxLzA3LzIwMjAjMCMzIzIwI0NCVDIwN0lBMVMxMDk3IzE1','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+15</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">35</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">35</td>
+			    <td align="right">&nbsp;06/10/2020</td>
+    <td align="right">	35	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S485</td>
+    <td align="right">&nbsp;05/10/2020</td>
+
+       </tr>
+	
+  <tr bgcolor=#FFFFFF>        <td align="center">21/07/2020</td>
+        <td align="center">22/07/2020</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">0</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">138</td> 
+						
+            		<td align="right"><a href=./bill_calculation1t.php?&url=TEExQSMxMzgjMjEvMDcvMjAyMCNOIzY1IzE1LzA1LzIwMjAjMCMzIzIwI0NCVDIwN0lBMVMyMzM3IzU3 onClick="window.open( 'bill_calculation1t.php?&url=TEExQSMxMzgjMjEvMDcvMjAyMCNOIzY1IzE1LzA1LzIwMjAjMCMzIzIwI0NCVDIwN0lBMVMyMzM3IzU3','Working Wheet', 'width=700, height=500, location=no, menubar=no, status=no,toolbar=no, scrollbars=no,  resizable=yes'); return false" >
+<span  font color=red  title="Click To View Bill Details"><font color=red>
+57</font></a></td>				  
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">77</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">77</td>
+			    <td align="right">&nbsp;10/08/2020</td>
+    <td align="right">	77	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S1097</td>
+    <td align="right">&nbsp;07/08/2020</td>
+
+       </tr>
+	
+  <tr bgcolor=#fff6cc>        <td align="center">15/05/2020</td>
+        <td align="center">15/05/2020</td>
+		 <td align="left">NORMAL</td>
+                 
+   
+	        <td align="right">16870</td>
+            <td align="right"></td>
+            <td align="right"></td> 
+            <td align="right"></td>
+            <td align="right">130</td> 
+						
+            				<td align="right">45</td>
+							<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">0</td>
+				<td align="right">20</td>
+				<td align="right">65</td>
+                <td align="right">0</td>
+                <td align="right">0</td>
+					<td align="right">65</td>
+			    <td align="right">&nbsp;06/06/2020</td>
+    <td align="right">	65	</td>
+
+    <td align="left" nowrap="nowrap" >CBT207IA1S2337</td>
+    <td align="right">&nbsp;26/05/2020</td>
+
+       </tr>
+	
+  </table>
+<table class='ccbills' align=center  width=80%  border='1' cellspacing=1 cellpadding=0 >
+<div style="width:80%;  text-align:center; ">
+    				<ul><span class='red'><u>Legend:</u></span>
+            			<li rea='1'>ASD-Additional Security Deposit</li>
+            			<li rea='2'>BPSC-Belated Payment Surcharge</li>
+            			<li rea='3'>CC-Current Consumption Charges</li>
+           	 			<li rea='4'>PMC-Previous Month Consumption</li>
+            		</ul></div> </table>
+<body>
+</body>
+</html><tr><td>&nbsp;</td></tr>
+<tr><td>
+<table class='ccbills1' align=center  width=80%  border='1' cellspacing=1 cellpadding=0 >
+
+    <caption class='shead'>Meter Change Details</caption>
+
+<br>
+<table align=center  width=80% border=1 cellspacing=0 cellpadding=0 style=bordercolor=#C4D2E2 >
+<tr  class='mth' style='FONT-SIZE: 12px; FONT-FAMILY: arial'>
+   	   <td width='8%' height="27" align='center'><b>MeterNo</b></td>
+           <td width='9%' align='center'><b>MeterMake</b></td>
+           <td width='20%'align='center'><b>MeterType</b></td>
+           <td width='3%' align='center'><b>MF</b></td>
+           <td width='7%' align='center'><b>New Initial <br />Rdg</b></td>
+           <td width='6%' align='center'><b>Old Final<br />Rdg</b></td>
+           <td width='5%' align='center'><b>New Initial<br />KVAH</b></td>
+           <td width='5%' align='center'><b>Old Final<br />KVAH</b></td>
+           <td width='7%' align='center'><b>New Meter<br />Install Date</b></td>
+           <td width='8%' align='center'><b>Old Meter<br />Removed Date</b></td>
+           <td width='17%' align='center'><b>Reason</b></td>
+<tr bgcolor=#FFFFFF><td align=center ><font color='black' face=arial size=2>5451287</td>
+                  <td align=center ><font color='black' face=arial size=2>CAPITAL</td>
+		          <td align=left ><font color='black' face=arial size=2>Static Electronic Meter With MD recording Facility</td><td align=center >&nbsp;<font color='black' face=arial size=2>1</td>
+		<td align=center>&nbsp;<font color='black' face=arial size=2>0 </td>
+		<td align=right >&nbsp;<font color='black' face=arial size=2>17008 </td>
+		<td align=right >&nbsp;<font color='black' face=arial size=2>0 </td>
+		<td align=right>&nbsp;<font color='black' face=arial size=2> </td>
+		<td align=center >&nbsp;<font color='black' face=arial size=2>21-07-2020 </td>
+        <td align=center >&nbsp;<font color='black' face=arial size=2>21-07-2020 </td>
+		<td align=center >&nbsp;<font color='black' face=arial size=2>Normal </td>
+        </table></td></tr>
+
+		
+    <br><table class='ccbills1' align=center  width=80%  border='1' cellspacing=1 cellpadding=0 >
+<caption class='shead'>Miscellaneous Demand and Collection Details</caption>
+   
+    <tr>
+<!--<td align='center'>New / Old <br>Consumer No</td>-->    
+	<th class='mth'>Consumer No. & <br> Slip  Date</th>
+    <th class='mth'><u>Slip Reason </u><br>& Period</th>
+    <th class='mth'>Total Slip<br>Amt. in Rs.</th>
+    <th class='mth'>Install.<br>Details</th>
+    <th class='mth'>Install.<br>Amt. in Rs.</th>
+    <th class='mth'>Due date</th>
+    <th class='mth'>Receipt No<br>Coll. Date</th>
+    <th class='mth'>Account Description</th>
+    <th class='mth'>Account wise<br>Amt. in Rs.</th>
+</tr>	
+    <tr><tr bgcolor=#fff6cc><td rowspan=1  align=left><u>2070031672</u><br>11-06-12</td>
+					<td rowspan=1  align=left>Advance Payment <br> /--/</td>
+					<td rowspan=1  align=right>4</td>									<td align='center'  rowspan='' >1</td>
+									<td align='right' rowspan=''>4</td>
+									<td align='right' rowspan='' >11-06-2012</td>
+								
+								    <td align="center">PGKFTL03S126314<br>11-06-2012</td>		
+							
+							
+									<!--<td align='left'  rowspan='' >PGKFTL03S126314<br>11-06-2012</td>-->
+									<td align='left' >47605 - Advance CC Charge </td>
+									<td align='right' >4/- </td></tr>
+									<tr><tr bgcolor=#FFFFFF><td rowspan=1  align=left><u>2070031672</u><br>08-08-12</td>
+					<td rowspan=1  align=left>Advance Payment <br> /--/</td>
+					<td rowspan=1  align=right>9</td>									<td align='center'  rowspan='' >1</td>
+									<td align='right' rowspan=''>9</td>
+									<td align='right' rowspan='' >08-08-2012</td>
+								
+								    <td align="center">PGKFTL03S180328<br>08-08-2012</td>		
+							
+							
+									<!--<td align='left'  rowspan='' >PGKFTL03S180328<br>08-08-2012</td>-->
+									<td align='left' >47605 - Advance CC Charge </td>
+									<td align='right' >9/- </td></tr>
+									<tr></tr></table><br>
+</table>
+<br />
+<br />
+
+<center>
+
+<form name="gmcview" action="https://www.tnebltd.gov.in/BillStatus/billstatus.xhtml" method="post">
+	<input type="hidden" name="rsno" value="3">
+	<input type='hidden' name='h'>
+<input type=submit value='VIEW ANOTHER ' class='button'>
+     	<input type=hidden name="rsno" value=$res>
+    
+  </form>
+</center>
+</tr></table>
+
+</body>
+</html>

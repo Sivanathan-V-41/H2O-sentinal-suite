@@ -1,0 +1,84 @@
+#include <LiquidCrystal.h>
+#include <DHT.h>
+#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
+
+// LCD for pH Detector
+LiquidCrystal lcd1(2, 3, 4, 5, 6, 7); 
+
+// LCD for Temperature and Humidity
+LiquidCrystal_I2C lcd2(0x27, 16, 2); 
+
+// DHT Sensor
+#define DHTPIN 7
+#define DHTTYPE DHT11
+DHT dht(DHTPIN, DHTTYPE);
+
+// pH Sensor
+int rainSen_pin = A0;
+
+void setup() {
+  Serial.begin(9600);
+
+  // Initialize pH Detector LCD
+  lcd1.begin(16, 2);
+  lcd1.setCursor(2, 0);
+  lcd1.print("pH Detector");
+  lcd1.setCursor(5, 1);
+  lcd1.print("System");
+  pinMode(rainSen_pin, INPUT);
+
+  // Initialize DHT Sensor
+  dht.begin();
+
+  // Initialize Temperature and Humidity LCD
+  lcd2.init(); 
+  lcd2.backlight();
+
+  delay(3000); // Initial delay for system startup
+}
+
+void loop() {
+  // Reading pH sensor
+  int RainSenReading = analogRead(rainSen_pin); 
+  Serial.print("SensorValue: ");
+  Serial.print(RainSenReading);
+
+  if (RainSenReading <= 800) {
+    lcd1.clear();
+    lcd1.setCursor(0, 0);
+    lcd1.print("It's pure water");
+    lcd1.setCursor(0, 1);
+    lcd1.print("Status: Pure");
+    Serial.println(" - Pure water");
+  } else {
+    lcd1.clear();
+    lcd1.setCursor(0, 0);
+    lcd1.print("Rain Water Alarm");
+    lcd1.setCursor(0, 1);
+    lcd1.print("Status: Contaminated");
+    Serial.println(" - Contaminated water");
+  }
+
+  // Reading from DHT sensor
+  int h = dht.readHumidity();
+  int t = dht.readTemperature();
+
+  // Print temp and humidity values to serial monitor
+  Serial.print(" Humidity: ");
+  Serial.print(h);
+  Serial.print(" %, Temp: ");
+  Serial.print(t);
+  Serial.println(" C");
+
+  // Update Temperature and Humidity LCD
+  lcd2.clear();
+  lcd2.setCursor(0, 0);
+  lcd2.print("Temp: ");
+  lcd2.print(t);
+  lcd2.print("C, Hum: ");
+  lcd2.print(h);
+  lcd2.print("%");
+
+  delay(1000); // Delay before next reading
+}

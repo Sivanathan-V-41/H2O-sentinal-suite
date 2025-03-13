@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Supply Mapping Tool - Real-Time Monitoring</title>
+  <!-- Include Chart.js from a CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: url('https://i.postimg.cc/sx1NMcgQ/sarah-lee-QURU8-IY-Ra-I-unsplash.jpg') center/cover no-repeat;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .monitoring-container {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8); /* Added a semi-transparent white background */
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      width: 80%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Style for city select */
+    select {
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    .back-button {
+      margin-top: 15px;
+      cursor: pointer;
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #2980b9;
+    }
+
+    /* Style for canvas */
+    #waterFlowChart {
+      width: 100%;
+      max-width: 600px;
+      height: 300px; /* Adjusted height for a larger graph */
+    }
+  </style>
+
+  <!-- Simulated real-time data -->
+  <script>
+    // Simulated data array
+    var dataPoints = [50, 40, 60, 30, 70, 20, 80, 10, 90, 5]; // Sample data
+
+    function updateChart(data) {
+      // Update the chart
+      var ctx = document.getElementById('waterFlowChart').getContext('2d');
+      var chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: Array.from({ length: data.length }, (_, i) => i + 1),
+          datasets: [{
+            label: 'Water Flow',
+            data: data,
+            borderColor: '#3498db', // Blue color
+            borderWidth: 2,
+            fill: false,
+          }]
+        },
+        options: {
+          scales: {
+            x: {
+              type: 'linear',
+              position: 'bottom',
+            },
+            y: {
+              min: 0,
+              max: 100,
+            }
+          }
+        }
+      });
+    }
+
+    function goBack() {
+      window.location.href = 'front.html';
+    }
+
+    // Initial chart rendering with sample data
+    document.addEventListener('DOMContentLoaded', function() {
+      updateChart(dataPoints);
+    });
+
+    // Simulate real-time data update every 3 seconds
+    setInterval(function() {
+      // Simulate real-time data update (replace with actual data retrieval logic)
+      var newData = Math.floor(Math.random() * 100) + 1;
+      dataPoints.push(newData);
+
+      // Keep a maximum of 10 data points for better visualization
+      if (dataPoints.length > 10) {
+        dataPoints.shift();
+      }
+
+      updateChart(dataPoints);
+    }, 3000); // Update every 3 seconds
+  </script>
+</head>
+<body>
+
+<div class="monitoring-container">
+  <h2>Real-Time Monitoring</h2>
+  <p>Monitor real-time water flow in the supply network.</p>
+
+  <!-- City select dropdown -->
+  <label for="citySelect">Select City:</label>
+  <select id="citySelect" onchange="updateChart([])">
+    <option value="Central Coimbatore">Central Coimbatore</option>
+    <option value="Townhall">Townhall</option>
+    <!-- Add more city options as needed -->
+  </select>
+
+  <canvas id="waterFlowChart"></canvas>
+
+  <!-- Back button -->
+  <button class="back-button" onclick="goBack()">Back</button>
+</div>
+
+</body>
+</html>

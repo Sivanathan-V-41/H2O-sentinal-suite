@@ -1,0 +1,28 @@
+#define BLYNK_PRINT Serial
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+
+char auth[] = "HILbiRWdNjbPkPr4NZ0MD8C_e9YWF_6E";//Enter your Auth token
+char ssid[] = "RajibPaul";//Enter your WIFI name
+char pass[] = "0563780324";//Enter your WIFI password
+
+BlynkTimer timer;
+
+void moisture() {
+  int rainSensor = analogRead(A0);
+  rainSensor = map(rainSensor, 0, 1023, 0, 100);
+  Blynk.virtualWrite(V0, rainSensor);
+  Serial.println(rainSensor);
+}
+
+void setup() {
+  Serial.begin(9600);
+  Blynk.begin(auth, ssid, pass);
+  timer.setInterval(100L, moisture);
+
+}
+void loop() 
+{
+  Blynk.run();
+  timer.run();
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groundwater Development Report - Tiruppur District</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .report-container {
+      text-align: left;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 80%;
+      max-width: 800px;
+      margin-bottom: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #3498db;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #3498db;
+      color: #fff;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    .back-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      background-color: #2ecc71;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+    }
+    .back-button:hover {
+      background-color: #27ae60;
+    }
+  </style>
+</head>
+<body>
+
+<div class="report-container">
+  <button class="back-button" onclick="location.href='interface.html'">Back</button>
+  <h1>REPORT</h1>
+  <h2>Stage of Groundwater Development of Tiruppur District</h2>
+  <table id="groundwater-table">
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Block</th>
+        <th>Net Groundwater Availability</th>
+        <th>Existing Gross Draft for Irrigation</th>
+        <th>Existing Gross Draft for Domestic and Industrial Water Supply</th>
+        <th>Existing Gross Draft for all Uses</th>
+        <th>Allocation for Domestic and Industrial Requirement up to next 25 years (2029)</th>
+        <th>Net Groundwater Availability for Future Irrigation Development</th>
+        <th>Stage of Groundwater Development</th>
+        <th>Monthly Usage (L)</th>
+        <th>Water Quality</th>
+        <th>Quantity (m³)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="row1"><td>1</td><td>Dharapuram</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row2"><td>2</td><td>Mulanur</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row3"><td>3</td><td>Kundadam</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row4"><td>4</td><td>Kangeyam</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row5"><td>5</td><td>Vellakoil</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row6"><td>6</td><td>Avanashi</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row7"><td>7</td><td>Uthukuli</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row8"><td>8</td><td>Tiruppur</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row9"><td>9</td><td>Palladam</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row10"><td>10</td><td>Pongalur</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row11"><td>11</td><td>Udumalaipettai</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row12"><td>12</td><td>Gudimangalam</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr id="row13"><td>13</td><td>Madathukulam</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+  <h6>AREA NOTIFIED BY CGWA/SGWA</h6>
+  <p>Central Ground Water Authority has not notified any area in the district...</p>
+</div>
+
+<script>
+  function updateRowSpecifically(rowId) {
+    const row = document.getElementById(rowId);
+    if (row) {
+      row.innerHTML = `
+        <td>${rowId.replace('row', '')}</td>
+        <td>${row.cells[1].textContent}</td>
+        <td>${(Math.random() * 10000).toFixed(2)}</td>
+        <td>${(Math.random() * 5000).toFixed(2)}</td>
+        <td>${(Math.random() * 300).toFixed(2)}</td>
+        <td>${(Math.random() * 5000).toFixed(2)}</td>
+        <td>${(Math.random() * 200).toFixed(2)}</td>
+        <td>${(Math.random() * 1000 - 500).toFixed(2)}</td>
+        <td>${Math.floor(Math.random() * 200)}</td>
+        <td>${Math.floor(Math.random() * 1000)}</td>
+        <td>${Math.random() < 0.5 ? 'Good' : 'Poor'}</td>
+        <td>${(Math.random() * 100).toFixed(2)}</td>
+      `;
+    }
+  }
+
+  function updateTableData() {
+    for (let i = 1; i <= 13; i++) {
+      updateRowSpecifically(`row${i}`);
+    }
+  }
+
+  setInterval(updateTableData, 10000); // Update table every second
+</script>
+
+</body>
+</html>

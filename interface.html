@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Supply Mapping Tool - User-Friendly Interface</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: url('https://i.postimg.cc/V63KNbdm/yannis-papanastasopoulos-U6dn-Imau-DAE-unsplash.jpg') center/cover no-repeat;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .interface-container {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.9); 
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+      padding: 20px;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .back-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      background-color: #2ecc71; 
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #27ae60; 
+    }
+
+    .feature-card {
+      background-color: #3498db; 
+      color: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; 
+    }
+
+    .feature-card:hover {
+      background-color: #2980b9; 
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<div class="interface-container">
+  <button class="back-button" onclick="location.href='front.html'">Back</button>
+  <h2>User-Friendly Interface</h2>
+  <p>Welcome to the user-friendly interface of the Water Supply Mapping Tool. Explore the features below:</p>
+
+  <div class="feature-card" onclick="location.href='map.html'">
+    <h3>Map View</h3>
+    <p>Visualize the water supply network on an interactive map.</p>
+  </div>
+
+  <div class="feature-card" onclick="location.href='data.html'">
+    <h3>Data Analysis</h3>
+    <p>Perform in-depth analysis of historical water supply data.</p>
+  </div>
+
+  <div class="feature-card" onclick="location.href='report.html'">
+    <h3>Report Generation</h3>
+    <p>Generate detailed reports based on water supply metrics.</p>
+  </div>
+
+  
+
+</div>
+
+</body>
+</html>
